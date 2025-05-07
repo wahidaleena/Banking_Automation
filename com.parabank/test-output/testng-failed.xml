@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [BankingSuite]">
+  <listeners>
+    <listener class-name="retry.RetryListener"/>
+    <listener class-name="extentReport.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="firefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testClasses.AboutPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyTheCorrectPageIsLoaded"/>
+          <include name="setUp"/>
+          <include name="createReport"/>
+        </methods>
+      </class> <!-- testClasses.AboutPageTest -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [BankingSuite] -->

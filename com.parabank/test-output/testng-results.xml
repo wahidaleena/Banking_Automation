@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-06T21:46:09 IST" name="BankingSuite" finished-at="2025-05-06T21:46:27 IST" duration-ms="17960">
+    <groups>
+    </groups>
+    <test started-at="2025-05-06T21:46:09 IST" name="chromeTest" finished-at="2025-05-06T21:46:18 IST" duration-ms="8877">
+      <class name="testClasses.AboutPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testClasses.AboutPageTest@2ca923bb]" started-at="2025-05-06T21:46:09 IST" name="setUp" finished-at="2025-05-06T21:46:17 IST" duration-ms="7734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTheCorrectPageIsLoaded()[pri:0, instance:testClasses.AboutPageTest@2ca923bb]" started-at="2025-05-06T21:46:17 IST" name="verifyTheCorrectPageIsLoaded" description="To verify if correct page is loaded when clicked on About Us" finished-at="2025-05-06T21:46:18 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheCorrectPageIsLoaded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.AboutPageTest@2ca923bb]" started-at="2025-05-06T21:46:18 IST" name="tearDown" finished-at="2025-05-06T21:46:18 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.AboutPageTest -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-05-06T21:46:18 IST" name="firefoxTest" finished-at="2025-05-06T21:46:27 IST" duration-ms="8753">
+      <class name="testClasses.AboutPageTest">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:testClasses.AboutPageTest@42e25b0b]" started-at="2025-05-06T21:46:09 IST" name="createReport" finished-at="2025-05-06T21:46:09 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testClasses.AboutPageTest@42e25b0b]" started-at="2025-05-06T21:46:18 IST" name="setUp" finished-at="2025-05-06T21:46:25 IST" duration-ms="7136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTheCorrectPageIsLoaded()[pri:0, instance:testClasses.AboutPageTest@42e25b0b]" started-at="2025-05-06T21:46:25 IST" name="verifyTheCorrectPageIsLoaded" description="To verify if correct page is loaded when clicked on About Us" finished-at="2025-05-06T21:46:26 IST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheCorrectPageIsLoaded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClasses.AboutPageTest@42e25b0b]" started-at="2025-05-06T21:46:26 IST" name="tearDown" finished-at="2025-05-06T21:46:27 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testClasses.AboutPageTest -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- BankingSuite -->
+</testng-results>

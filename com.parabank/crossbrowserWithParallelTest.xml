@@ -1,0 +1,24 @@
+<suite name="BankingSuite" parallel="classes" thread-count="2">
+	<listeners>
+		<listener class-name="retry.RetryListener" />
+		<listener class-name="extentReport.TestListener" />
+
+	</listeners>
+	<test name="chromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testClasses.AboutPageTest" />
+			<class name="base.BaseClass" />
+		</classes>
+	</test> <!--
+	Test -->
+
+	<test name="firefoxTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="testClasses.AboutPageTest" />
+			<class name="base.BaseClass" />
+		</classes>
+	</test>
+</suite> <!--
+Suite -->
